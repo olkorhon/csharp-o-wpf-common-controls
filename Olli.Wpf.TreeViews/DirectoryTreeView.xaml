@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Olli.Wpf.TreeViews.DirectoryTreeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Olli.Wpf.TreeViews"
+             xmlns:viewModels="clr-namespace:Olli.Wpf.TreeViews.ViewModels"
+             mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance {x:Type viewModels:DirectoryTreeViewModel}, IsDesignTimeCreatable=True}"
+             d:DesignHeight="200" d:DesignWidth="160">
+    <TreeView ItemsSource="{Binding Items}" SelectedItemChanged="TreeView_SelectedItemChanged">
+    </TreeView>
+</UserControl>

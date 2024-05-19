@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olli.Wpf.TreeViewExamples", "Olli.Wpf.TreeViewExamples\Olli.Wpf.TreeViewExamples.csproj", "{B26EB1F8-1BCD-4E05-958F-836682E4C9B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olli.Wpf.TreeViews", "Olli.Wpf.TreeViews\Olli.Wpf.TreeViews.csproj", "{83FCDD54-5199-442E-B188-7FB5FFD6B4CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B26EB1F8-1BCD-4E05-958F-836682E4C9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26EB1F8-1BCD-4E05-958F-836682E4C9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26EB1F8-1BCD-4E05-958F-836682E4C9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26EB1F8-1BCD-4E05-958F-836682E4C9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83FCDD54-5199-442E-B188-7FB5FFD6B4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FCDD54-5199-442E-B188-7FB5FFD6B4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FCDD54-5199-442E-B188-7FB5FFD6B4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FCDD54-5199-442E-B188-7FB5FFD6B4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {341EE715-8CC9-4C09-BDFA-8BABB2FC046E}
+	EndGlobalSection
+EndGlobal
